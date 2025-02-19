@@ -253,7 +253,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130725078037024}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fca36bd81de7c4cafce7bbf02ca611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   canRun: 1
-  runSpeed: 9
+  runSpeed: 5
   runningKey: 304
 --- !u!114 &114497868231759342
 MonoBehaviour:
@@ -648,9 +648,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 306
   movement: {fileID: 114963311885979670}
-  movementSpeed: 2
-  headToLower: {fileID: 4490257326247362}
+  movementSpeed: 1
+  headToLower: {fileID: 5335950077357794530}
   crouchYHeadPosition: 1
+  crouchTransitionSpeed: 6
   colliderToLower: {fileID: 136877096903737240}
 --- !u!1 &1963958859065967600
 GameObject:
